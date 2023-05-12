@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Answer page</h1>
+    <p><%= @question%></p>
+    <p><em>- You</em></p>
+  <div class="bg-warning p-2 text-dark bg-opacity-25">
+    <p><strong><%= @answer %></strong></p>
+    <p><em>- Coach</em></p>
+  </div>
+
+  <div>
+    <p class="text-decoration-none"><%= link_to "ask another question", ask_path %></p>
+  </div>
+</div>
